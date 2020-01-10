@@ -1,0 +1,51 @@
+tag dictionary
+
+a: The anchor tag is used to create a hyper link to another website
+  attributes: href
+  example: <a href="http:www.stuff.inc"> a website</a>
+
+
+
+h1: header1 is used to create a big visable header
+  attributes:none
+  example: <h1>subject</h1>
+
+
+
+h2: header2-6 is also used to create a large header that is slightly smaller than header1 as the number increases
+  attributes: none
+  example:  <h4>subject</h4>
+
+
+img: image is used to link and display an image
+  attributes: src,alt
+  example:<img scr="pic.jpg">
+
+
+
+li: list item is used to list stuff. specified items of the list
+  attributes: none
+  example:<li>eggs</li>
+
+
+ol: ordered list is used to number list items
+  attributes:none
+  example:<ol>
+             <li>eggs</li>
+          </ol>
+
+
+p: paragraph is used to seperate one paragraph or phrase from another with an empty line
+  attributes:none
+  example:<p>paragraph about myself</p>
+
+
+ul: unorganized list is used to add bullet points to a list
+  attributes:none
+  example: <ul>
+             <li>eggs</li>
+          </ul>
+
+
+
+    
