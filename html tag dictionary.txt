@@ -4,7 +4,27 @@ a: The anchor tag is used to create a hyper link to another website
   attributes: href
   example: <a href="http:www.stuff.inc"> a website</a>
 
+body: contains all content of website
+  attributes:
+  example: <body>
+            content
+           </body>
 
+!DOCTYPE: used to select the version of html, the html attribute means the most recent version
+  attributes: html
+  example: <!DOCTYPE HTML>
+
+<head> things for your browser to think about when looking at your webpage
+  attributes:none
+  example: <head>
+               <title>name</title>
+           <head>
+
+<html>: marks the beginning and end of your html code
+  attributes:none
+  example: <hmtl>
+           html code
+           <html>
 
 h1: header1 is used to create a big visable header
   attributes:none
@@ -40,6 +60,11 @@ p: paragraph is used to seperate one paragraph or phrase from another with an em
   example:<p>paragraph about myself</p>
 
 
+title: name of tab
+  attributes: none
+  example: <title>website</title>
+
+
 ul: unorganized list is used to add bullet points to a list
   attributes:none
   example: <ul>
@@ -47,5 +72,3 @@ ul: unorganized list is used to add bullet points to a list
           </ul>
 
 
-
-    
